@@ -19,7 +19,7 @@ export default function LandingPage() {
         </h1>
 
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-          Sistem pakar berbasis web yang membantu menentukan{" "}
+          System Pakar Ber basis web yang membantu menentukans{" "}
           <span className="font-semibold text-indigo-600">
             jenis layanan laundry terbaik
           </span>{" "}
@@ -67,10 +67,10 @@ export default function LandingPage() {
 
         <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition-all">
           <h3 className="text-xl font-semibold text-indigo-700 mb-2">
-            🌐 Berbasis Web Modern
+            🌐 Ber basis Web Modern
           </h3>
           <p className="text-gray-600">
-            Dibangun dengan <strong>Next.js</strong> dan <strong>Tailwind CSS</strong> untuk tampilan cepat, interaktif, dan responsif.
+            Di bangun dengan <strong>Next.js</strong> dan <strong>Tailwind CSS</strong> untuk tampilan cepat, interaktif, dan responsif.
           </p>
         </div>
       </motion.div>

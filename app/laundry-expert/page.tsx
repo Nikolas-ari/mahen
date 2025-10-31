@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function LaundryExpertSystem() {
   const [formData, setFormData] = useState({
@@ -64,6 +65,7 @@ export default function LaundryExpertSystem() {
         </h1>
 
         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
           {/* Kondisi 1 */}
           <div>
             <label className="block font-medium mb-1">Jenis Kain</label>
@@ -179,6 +181,16 @@ export default function LaundryExpertSystem() {
             >
               Dapatkan Rekomendasi
             </button>
+          </div>
+
+          {/* Tombol Kembali ke Home */}
+          <div className="md:col-span-2 text-center mt-2">
+            <Link
+              href="/"
+              className="inline-block bg-gray-300 hover:bg-gray-400 text-black font-medium px-6 py-2 rounded-lg transition-all"
+            >
+              ← Kembali ke Beranda
+            </Link>
           </div>
         </form>
 
